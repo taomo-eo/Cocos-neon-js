@@ -3,7 +3,7 @@ This plugin adapts the [neon-js](https://github.com/CityOfZion/neon-js) SDK by C
 
 ### Installation
 
-1. Extract `neon-js` folder into the `packages` directory of your *Cocos Creator* project.
+1. Extract `cocos-neon-js` folder into the `packages` directory of your *Cocos Creator* project.
 2. In *Cocos Creator*, select `Extension` > `neon-js` > `Install`
 
 ### Usage
