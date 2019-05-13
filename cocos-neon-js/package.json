@@ -1,0 +1,16 @@
+{
+    "name": "neon-js",
+    "version": "0.0.1",
+    "beta": false,
+    "description": "NEON extension for Cocos dev environment",
+    "main": "main.js",
+    "author": "https://cityofzion.io/neon-js/",
+    "main-menu": {
+        "i18n:MAIN_MENU.package.title/neon-js/Install": {
+            "message": "neon-js:install"
+        },
+        "i18n:MAIN_MENU.package.title/neon-js/Help": {
+            "message": "neon-js:help"
+        }
+    }
+}
