@@ -18,4 +18,6 @@ console.log(Neon);
 
 ### Example
 
-TODO
+A simple example can be found at `./Example/Eg_cocos_neo` 
+
+*The example is still WIP*
