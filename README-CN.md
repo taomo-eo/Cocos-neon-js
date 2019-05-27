@@ -10,6 +10,8 @@ neo-cocos-sdk 是基于[neon-js](http://cityofzion.io/neon-js/en/), 专门为Coc
    
 2. 选择 `插件` > `neo-cocos-sdk` > `安装`
 
+3. 重新打开 Cocos Creator 项目，当遇到弹窗询问 `是否加载neon-browser.js` 选择是。
+
 ### 使用
 
 安装完成后，此插件的所有模块可使用全局变量 `Neon` 调用。
