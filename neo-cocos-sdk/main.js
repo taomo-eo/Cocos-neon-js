@@ -16,7 +16,7 @@ module.exports = {
             const srcFolder = Path.join(__dirname, 'plugin');
             const destFolder = Path.join(getProjectPath(), 'assets');
             fse.copySync(srcFolder, destFolder);
-            Editor.log('Neon-js plugin is installed to assets');
+            Editor.log('neo-cocos-sdk plugin is installed to assets');
         },
         "help": function() {
             shell.openExternal('https://cityofzion.io/neon-js/');
