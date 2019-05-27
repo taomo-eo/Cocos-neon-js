@@ -7,7 +7,7 @@ This plugin adapts the [neon-js](https://github.com/CityOfZion/neon-js) SDK by C
 ### Installation
 
 1. In *Cocos Creator*, select `Extenstion` > `Extension Store` > search for `neo-cocos-sdk` > download plugin
-   
+   S
    > *Alternatively, clone the repository, extract `neo-cocos-sdk` folder into the `packages` directory of your Cocos Creator project.*
 
 2. Select `Extension` > `neo-cocos-sdk` > `Install`
