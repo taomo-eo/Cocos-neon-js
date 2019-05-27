@@ -1,10 +1,16 @@
 # NEO SDK for Cocos Creator 
+
+> [中文版](README-CN.md)
+
 This plugin adapts the [neon-js](https://github.com/CityOfZion/neon-js) SDK by CityofZion for Cocos Creator. 
 
 ### Installation
 
-1. Extract `neo-cocos-sdk` folder into the `packages` directory of your *Cocos Creator* project.
-2. In *Cocos Creator*, select `Extension` > `neo-cocos-sdk` > `Install`
+1. In *Cocos Creator*, select `Extenstion` > `Extension Store` > search for `neo-cocos-sdk` > download plugin
+   
+   > Alternatively, clone the repository, extract `neo-cocos-sdk` folder into the `packages` directory of your *Cocos Creator* project.
+
+2. Select `Extension` > `neo-cocos-sdk` > `Install`
 
 ### Usage
 
@@ -14,7 +20,9 @@ Once installed, the module is available as a global object `Neon`.
 console.log(Neon);
 ```
 
-> For more information, read the documentations for [neon-js](https://cityofzion.io/neon-js/docs/en/api/index.html)
+> For further guides, see the [NEO Game Developer Guide](https://github.com/neo-ngd/NEO.Game-Developer-Guide)
+
+> For API references, see [neon-js docs](https://cityofzion.io/neon-js/docs/en/api/index.html)
 
 ### Example
 
