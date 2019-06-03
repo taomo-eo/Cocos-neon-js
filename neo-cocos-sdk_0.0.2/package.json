@@ -1,6 +1,6 @@
 {
     "name": "neo-cocos-sdk",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "beta": false,
     "description": "NEO SDK extension for Cocos dev environment",
     "main": "main.js",
@@ -12,5 +12,9 @@
         "i18n:MAIN_MENU.package.title/neo-cocos-sdk/Help": {
             "message": "neo-cocos-sdk:help"
         }
+    }, 
+    "runtime-resource": {
+        "path": "./plugin/neo-cocos-sdk",
+        "name": "neo-cocos-sdk"
     }
 }
