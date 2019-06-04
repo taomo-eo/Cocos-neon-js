@@ -1,6 +1,4 @@
-实行了反馈里提出的改变建议，加入了Editor.assetdb.refresh()方法和meta文件
-
-但是在packages.json文件中加入"runtime-resources"选项后，遇到如下问题：
+在packages.json文件中加入"*[runtime-resource](https://github.com/taomo-eo/neo-cocos-sdk/blob/95f11afd7383ba5087efecf6230ade7cb85a5639/neo-cocos-sdk_0.0.2/package.json#L16)*"后，遇到如下问题：
 
 - 当项目在cocosCreator编辑器中打开时，如果把插件放入项目/packages文件夹中，项目会报错，进入load和unload循环。报错消息如下：
 
@@ -27,5 +25,8 @@
             at emitTwo (events.js:111:20)
             at EventEmitter.emit (events.js:194:7)
 
+    <img src="https://raw.githubusercontent.com/taomo-eo/neo-cocos-sdk/blob/error-branch/_img/1_error.png" width=775>
 
-- 如果事先把插件放入项目/packages文件夹中，再打开项目，插件会被成功加入到runtime-resources中。
+- 关闭编辑器，再打开项目，插件会被成功加入到runtime-resources中。
+  
+  <img src="https://raw.githubusercontent.com/taomo-eo/neo-cocos-sdk/blob/error-branch/_img/2_relaunched.png" width=450>

@@ -15,6 +15,9 @@
     }, 
     "runtime-resource": {
         "path": "./plugin/neo-cocos-sdk",
-        "name": "neo-cocos-sdk"
+        "name": "runtime-res"
+    },
+    "reload": {
+        "ignore": ["./plugin/neo-cocos-sdk/*"]
     }
 }
