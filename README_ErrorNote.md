@@ -25,8 +25,8 @@
             at emitTwo (events.js:111:20)
             at EventEmitter.emit (events.js:194:7)
 
-    <img src="https://raw.githubusercontent.com/taomo-eo/neo-cocos-sdk/blob/error-branch/_img/1_error.png" width=775>
+    <img src="https://raw.githubusercontent.com/taomo-eo/neo-cocos-sdk/error-branch/_img/1_error.png" width=775>
 
 - 关闭编辑器，再打开项目，插件会被成功加入到runtime-resources中。
   
-  <img src="https://raw.githubusercontent.com/taomo-eo/neo-cocos-sdk/blob/error-branch/_img/2_relaunched.png" width=450>
+  <img src="https://raw.githubusercontent.com/taomo-eo/neo-cocos-sdk/error-branch/_img/2_relaunched.png" width=450>
