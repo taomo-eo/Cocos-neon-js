@@ -1,4 +1,4 @@
-在packages.json文件中加入"*[runtime-resource](https://github.com/taomo-eo/neo-cocos-sdk/blob/95f11afd7383ba5087efecf6230ade7cb85a5639/neo-cocos-sdk_0.0.2/package.json#L16)*"后，遇到如下问题：
+在packages.json文件中加入"*[runtime-resource](https://github.com/taomo-eo/neo-cocos-sdk/blob/error-branch/neo-cocos-sdk_0.0.2/package.json#L16)*"后，遇到如下问题：
 
 - 当项目在cocosCreator编辑器中打开时，如果把插件放入项目/packages文件夹中，项目会报错，进入load和unload循环。报错消息如下：
 
